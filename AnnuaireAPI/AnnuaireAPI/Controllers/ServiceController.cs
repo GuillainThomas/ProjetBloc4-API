@@ -15,38 +15,43 @@ public class ServiceController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Service>>> GetAgencys()
+    public async Task<ActionResult<List<ServiceDto>>> GetAllServiceAsync()
     {
-        return await _context.Services.ToListAsync();
+        List<ServiceDto> serviceDto = await _context.Services.Select(s => new ServiceDto(s)).ToListAsync();
+        return serviceDto;
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Service>> GetAgency(int id)
+    public async Task<ActionResult<ServiceDto>> GetServiceByIdAsync(int id)
     {
-        var service = await _context.Services.FindAsync(id);
+        var service = await _context.Services.FirstOrDefaultAsync(s => s.Id == id);
         if (service == null) return NotFound();
-        return service;
+        var serviceDto = new ServiceDto(service);
+        return serviceDto;
     }
 
     [HttpPost]
-    public async Task<ActionResult<Service>> PostAgency(Service service)
+    public async Task<ActionResult<ServiceDto>> PostServiceAsync(ServiceDto serviceDto)
     {
+        Service service = new(serviceDto);
         _context.Services.Add(service);
         await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetAgency), new { id = service.Id }, service);
+        serviceDto = new(service);
+        return CreatedAtAction(nameof(GetServiceByIdAsync), new { id = serviceDto.Id }, serviceDto);
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutAgency(int id, Service service)
+    public async Task<IActionResult> PutServiceAsync(int id, ServiceDto serviceDto)
     {
-        if (id != service.Id) return BadRequest();
+        if (id != serviceDto.Id) return BadRequest();
+        Service service = new(serviceDto);
         _context.Entry(service).State = EntityState.Modified;
         await _context.SaveChangesAsync();
         return NoContent();
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteAgency(int id)
+    public async Task<IActionResult> DeleteServiceAsync(int id)
     {
         var service = await _context.Services.FindAsync(id);
         if (service == null) return NotFound();

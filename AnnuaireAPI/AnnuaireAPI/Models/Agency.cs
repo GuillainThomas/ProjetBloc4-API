@@ -4,6 +4,12 @@ namespace AnnuaireAPI.Models;
 
 public partial class Agency
 {
+    public Agency(AgencyDto agencyDto)
+    {
+        Id = agencyDto.Id;
+        City = agencyDto.City;
+    }
+
     public int Id { get; set; }
 
     public string City { get; set; } = null!;

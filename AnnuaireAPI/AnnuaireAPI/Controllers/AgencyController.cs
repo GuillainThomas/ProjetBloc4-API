@@ -15,38 +15,43 @@ public class AgencyController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Agency>>> GetAgencys()
+    public async Task<ActionResult<List<AgencyDto>>> GetAllAgencyAsync()
     {
-        return await _context.Agencies.ToListAsync();
+        List<AgencyDto> agencyDto = await _context.Agencies.Select(a => new AgencyDto(a)).ToListAsync();
+        return agencyDto;
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Agency>> GetAgency(int id)
+    public async Task<ActionResult<AgencyDto>> GetAgencyByIdAsync(int id)
     {
-        var agency = await _context.Agencies.FindAsync(id);
+        var agency = await _context.Agencies.FirstOrDefaultAsync(a => a.Id == id);
         if (agency == null) return NotFound();
-        return agency;
+        var agencyDto = new AgencyDto(agency);
+        return agencyDto;
     }
 
     [HttpPost]
-    public async Task<ActionResult<Agency>> PostAgency(Agency agency)
+    public async Task<ActionResult<AgencyDto>> PostAgencyAsync(AgencyDto agencyDto)
     {
+        Agency agency = new(agencyDto);
         _context.Agencies.Add(agency);
         await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetAgency), new { id = agency.Id }, agency);
+        agencyDto = new(agency);
+        return CreatedAtAction(nameof(GetAgencyByIdAsync), new { id = agencyDto.Id }, agencyDto);
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutAgency(int id, Agency agency)
+    public async Task<IActionResult> PutAgencyAsync(int id, AgencyDto agencyDto)
     {
-        if (id != agency.Id) return BadRequest();
+        if (id != agencyDto.Id) return BadRequest();
+        Agency agency = new(agencyDto);
         _context.Entry(agency).State = EntityState.Modified;
         await _context.SaveChangesAsync();
         return NoContent();
     }
 
     [HttpDelete("{id}")]
-    public async Task<IActionResult> DeleteAgency(int id)
+    public async Task<IActionResult> DeleteAgencyAsync(int id)
     {
         var agency = await _context.Agencies.FindAsync(id);
         if (agency == null) return NotFound();

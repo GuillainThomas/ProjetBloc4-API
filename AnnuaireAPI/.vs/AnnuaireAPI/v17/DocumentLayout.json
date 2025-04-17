@@ -1,38 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\annuaireapi\\annuaireapi\\data\\phonebookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\data\\phonebookdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\bloc4\\projetbloc4-api\\annuaireapi\\annuaireapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\annuaireapi\\annuaireapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\annuaireapi\\annuaireapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\annuaireapi\\annuaireapi\\controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\annuaireapi\\annuaireapi\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\models\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\annuaireapi\\annuaireapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\annuaireapi\\annuaireapi\\models\\agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\models\\agency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\annuaireapi\\annuaireapi\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\bloc4\\projetbloc4-api\\annuaireapi\\annuaireapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PhoneBookDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Data\\PhoneBookDbContext.cs",
-              "RelativeDocumentMoniker": "AnnuaireAPI\\Data\\PhoneBookDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Data\\PhoneBookDbContext.cs",
-              "RelativeToolTip": "AnnuaireAPI\\Data\\PhoneBookDbContext.cs",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AnnuaireAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Program.cs",
+              "RelativeToolTip": "AnnuaireAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T06:17:00.699Z",
+              "WhenOpened": "2025-04-17T09:51:00.939Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Service.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Models\\Service.cs",
-              "RelativeDocumentMoniker": "AnnuaireAPI\\Models\\Service.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Models\\Service.cs",
-              "RelativeToolTip": "AnnuaireAPI\\Models\\Service.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:14:38.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "AnnuaireAPI\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Models\\Employee.cs",
-              "RelativeToolTip": "AnnuaireAPI\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:14:37.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Agency.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Models\\Agency.cs",
-              "RelativeDocumentMoniker": "AnnuaireAPI\\Models\\Agency.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Models\\Agency.cs",
-              "RelativeToolTip": "AnnuaireAPI\\Models\\Agency.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:14:30.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Models\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "AnnuaireAPI\\Models\\EmployeeDto.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Models\\EmployeeDto.cs",
-              "RelativeToolTip": "AnnuaireAPI\\Models\\EmployeeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T09:02:04.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AgencyController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\AgencyController.cs",
-              "RelativeDocumentMoniker": "AnnuaireAPI\\Controllers\\AgencyController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\AgencyController.cs",
-              "RelativeToolTip": "AnnuaireAPI\\Controllers\\AgencyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:52:15.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "AnnuaireAPI\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "AnnuaireAPI\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:52:47.182Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ServiceController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\ServiceController.cs",
-              "RelativeDocumentMoniker": "AnnuaireAPI\\Controllers\\ServiceController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\ServiceController.cs",
-              "RelativeToolTip": "AnnuaireAPI\\Controllers\\ServiceController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T22:59:04.466Z"
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "AnnuaireAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\appsettings.json",
+              "RelativeToolTip": "AnnuaireAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T09:50:30.988Z",
+              "EditorCaption": ""
             }
           ]
         }

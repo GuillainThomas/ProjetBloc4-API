@@ -2,8 +2,6 @@
 
 public partial class Employee
 {
-    public Employee() { }
-
     public Employee(EmployeeDto employeeDto)
     {
         Id = employeeDto.Id;

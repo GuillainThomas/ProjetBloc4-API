@@ -4,6 +4,12 @@ namespace AnnuaireAPI.Models;
 
 public partial class Service
 {
+    public Service(ServiceDto serviceDto)
+    {
+        Id = serviceDto.Id;
+        Name = serviceDto.Name;
+    }
+
     public int Id { get; set; }
 
     public string Name { get; set; } = null!;
