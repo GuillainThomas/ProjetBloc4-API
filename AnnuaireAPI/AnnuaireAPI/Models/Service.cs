@@ -4,6 +4,8 @@ namespace AnnuaireAPI.Models;
 
 public partial class Service
 {
+    public Service() { }
+
     public Service(ServiceDto serviceDto)
     {
         Id = serviceDto.Id;

@@ -59,4 +59,11 @@ public class ServiceController : ControllerBase
         await _context.SaveChangesAsync();
         return NoContent();
     }
+
+    [HttpGet("isassigned/{id}")]
+    public async Task<ActionResult<bool>> IsAssignedAsync(int id)
+    {
+
+        return await _context.Employees.Where(e => e.ServiceId == id).AnyAsync();
+    }
 }

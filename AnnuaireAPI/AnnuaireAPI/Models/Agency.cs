@@ -4,6 +4,8 @@ namespace AnnuaireAPI.Models;
 
 public partial class Agency
 {
+    public Agency() { }
+
     public Agency(AgencyDto agencyDto)
     {
         Id = agencyDto.Id;

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\bloc4\\projetbloc4-api\\annuaireapi\\annuaireapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\bloc4\\projetbloc4-api\\annuaireapi\\annuaireapi\\controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\controllers\\agencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\bloc4\\projetbloc4-api\\annuaireapi\\annuaireapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\bloc4\\projetbloc4-api\\annuaireapi\\annuaireapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\bloc4\\projetbloc4-api\\annuaireapi\\annuaireapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|c:\\users\\admin\\desktop\\cube\\bloc4\\projetbloc4-api\\annuaireapi\\annuaireapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D5B0C027-3711-4A32-97CF-80221C828C61}|AnnuaireAPI\\AnnuaireAPI.csproj|solutionrelative:annuaireapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgencyController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\AgencyController.cs",
+              "RelativeDocumentMoniker": "AnnuaireAPI\\Controllers\\AgencyController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\AgencyController.cs",
+              "RelativeToolTip": "AnnuaireAPI\\Controllers\\AgencyController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwEIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:35:40.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "AnnuaireAPI\\Controllers\\ServiceController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "AnnuaireAPI\\Controllers\\ServiceController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAA0wDwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:12:06.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "AnnuaireAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "AnnuaireAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T06:50:48.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\Program.cs",
               "RelativeDocumentMoniker": "AnnuaireAPI\\Program.cs",
@@ -35,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\appsettings.json",
               "RelativeDocumentMoniker": "AnnuaireAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\cube\\Bloc4\\ProjetBloc4-API\\AnnuaireAPI\\AnnuaireAPI\\appsettings.json",
               "RelativeToolTip": "AnnuaireAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-17T09:50:30.988Z",
               "EditorCaption": ""

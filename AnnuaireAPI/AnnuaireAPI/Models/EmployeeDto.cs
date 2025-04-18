@@ -2,6 +2,8 @@
 
 public class EmployeeDto
 {
+    public EmployeeDto() { }
+
     public EmployeeDto(Employee employee)
     {
         Id = employee.Id;
